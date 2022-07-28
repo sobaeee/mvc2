@@ -80,7 +80,7 @@ public class LoginController extends HttpServlet {
 				cookie2.setMaxAge(60*60*24); //1일
 				cookie.setPath("/");
 				cookie2.setPath("/");
-//Java script 는 response가 필요없다.				
+//				Java script 는 response가 필요없다.				
 //				response.addCookie(cookie);
 //				response.addCookie(cookie2);
 			}else {
